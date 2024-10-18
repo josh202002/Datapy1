@@ -18785,10 +18785,12 @@ svg.collapse-open, svg.collapse-close {
   margin-right: 15px;
   display: block;
   flex-shrink: 0;
+  align-items: center;
 }
 .settings-profile-upload .profile-pic img {
   width: 100%;
   border-radius: 50%;
+  align-items: center;
 }
 .settings-profile-upload .title-upload h5 {
   margin-bottom: 5px;
