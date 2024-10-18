@@ -99,16 +99,18 @@ authentication
 
 ========================================*/
 /****** Utils ******/
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /******* Base *******/
 body {
-  font-family: "Lato";
+  font-family: "Nunito";
   font-size: 14px;
   color: #6A7287;
   line-height: 1.5;
@@ -155,7 +157,7 @@ strong {
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   color: #202C4B;
-  font-family: "Lato", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 700;
   margin-bottom: 0;
 }
@@ -747,6 +749,7 @@ ul .btn-primary:not(:disabled):not(.disabled):active:focus, ul .btn-primary:not(
   background-color: #39435F;
 }
 
+
 .bg-gray-900 {
   background-color: #202C4B;
 }
@@ -1061,7 +1064,7 @@ ul .btn-primary:not(:disabled):not(.disabled):active:focus, ul .btn-primary:not(
 }
 .page-wrapper .content {
   padding: 24px;
-  background: #fff6ee;
+  background: #fffaf5;
   padding-bottom: 0;
 }
 @media (max-width: 991.98px) {
@@ -2169,6 +2172,7 @@ ul .btn-primary:not(:disabled):not(.disabled):active:focus, ul .btn-primary:not(
 }
 .sidebar .sidebar-inner {
   width: 100%;
+  background-color: #fffdfb;
 }
 .sidebar .sidebar-menu {
   padding: 15px;
@@ -3961,8 +3965,8 @@ button:focus {
   color: #FFF;
 }
 .btn.btn-success {
-  background-color: #1ABE17;
-  border: 1px solid #1ABE17;
+  background-color: #FD7E14;
+  border: 1px solid white;
   color: #FFF;
 }
 .btn.btn-success:hover, .btn.btn-success:focus, .btn.btn-success.focus, .btn.btn-success:active, .btn.btn-success.active {
@@ -5235,13 +5239,13 @@ button:focus {
 .fc-toolbar h2 {
   font-size: 18px;
   font-weight: 600;
-  font-family: "Lato", sans-serif;
+  font-family: "Nunito", sans-serif;
   line-height: 30px;
   text-transform: uppercase;
 }
 
 .fc-day-grid-event .fc-time {
-  font-family: "Lato", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 .fc-day {
@@ -5332,13 +5336,13 @@ button:focus {
 .fc-basic-view td.fc-week-number span {
   padding-right: 8px;
   font-weight: 700;
-  font-family: "Lato", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 .fc-basic-view td.fc-day-number {
   padding-right: 8px;
   font-weight: 700;
-  font-family: "Lato", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 .event-form .input-group .form-control {
@@ -10001,7 +10005,7 @@ button:focus {
   color: #FFF;
 }
 .dropdown .dropdown-menu {
-  font-family: "Lato", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 .dropdown-menu {
@@ -11047,7 +11051,7 @@ h6,
 .h5,
 .h6 {
   color: #202C4B;
-  font-family: "Lato", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 700;
   margin-bottom: 0;
 }
@@ -16810,7 +16814,7 @@ table.table-bordered thead tr th p {
   width: 82px;
   padding: 8px 0;
   color: #FFF;
-  font: 500 16px/1 Lato, sans-serif;
+  font: 500 16px/1 Nunito, sans-serif;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   text-transform: capitalize;
   text-align: center;
@@ -21997,6 +22001,14 @@ table.table.dataTable > thead > tr th {
   left: 10px;
   top: 50%;
   transform: translateY(-50%);
+}
+.qlinks{
+  width:30%;
+}
+#quick-linksid{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=style.css.map */

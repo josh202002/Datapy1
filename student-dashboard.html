@@ -704,34 +704,40 @@
         <div class="page-wrapper">
             <div class="content">
 
-                <div class="d-md-flex d-block align-items-center justify-content-between mb-3">
-                    <div class="my-auto mb-2">
-                        <h3 class="page-title mb-1">Student Dashboard</h3>
-                        <nav>
-                            <ol class="breadcrumb mb-0">
-                                <li class="breadcrumb-item">
-                                    <a
-                                        href="https://preskool.dreamstechnologies.com/ci/template/public/index">Dashboard</a>
-                                </li>
-                                <li class="breadcrumb-item active" aria-current="page">Student Dashboard</li>
-                            </ol>
-                        </nav>
-                    </div>
-                </div>
-
                 
 
+                
+                <div class="card">
+                    
+                    <div class="card-body">
+                    <div class="d-flex align-items-xl-center justify-content-xl-between flex-xl-row flex-column">
+                    <div class="mb-3 mb-xl-0">
+                    <div class="d-flex align-items-center flex-wrap mb-2">
+                    <h1 class="text-orange me-2">Welcome Back, Megha</h1>
+                    <a href="https://preskool.dreamstechnologies.com/ci/template/public/profile" class="avatar avatar-sm img-rounded bg-gray-800 dark-hover"><i class="ti ti-edit text-white"></i></a>
+                    </div>
+                    <p class="text-black">Hope you are having a good day</p>
+                    </div>
+                   
+                    </div>
+                    </div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
                 <!-- New Student-->
                 <div class="col-xl-12 d-flex">
                     <div class="row flex-fill">
                         <div class="col-sm-6 col-xl-3 d-flex">
-                            <a href="https://preskool.dreamstechnologies.com/ci/template/public/student-fees"
+                            <a href="class-time-table.html"
                                 class="card border-0 border-bottom border-primary border-2 flex-fill animate-card">
                                 <div class="card-body">
                                     <div class="d-flex align-items-center">
                                         <span class="avatar avatar-md rounded bg-primary me-2"><i
                                                 class="ti ti-report-money fs-16"></i></span>
-                                        <h6>Pay Fees</h6>
+                                        <h6>Timetable</h6>
                                     </div>
                                 </div>
                             </a>
@@ -743,7 +749,7 @@
                                     <div class="d-flex align-items-center">
                                         <span class="avatar avatar-md rounded bg-success me-2"><i
                                                 class="ti ti-hexagonal-prism-plus fs-16"></i></span>
-                                        <h6>Exam Result</h6>
+                                        <h6>Online Sessions</h6>
                                     </div>
                                 </div>
                             </a>
@@ -767,7 +773,7 @@
                                     <div class="d-flex align-items-center">
                                         <span class="avatar avatar-md rounded bg-dark me-2"><i
                                                 class="ti ti-calendar-share fs-16"></i></span>
-                                        <h6>Attendance</h6>
+                                        <h6>Feedback</h6>
                                     </div>
                                 </div>
                             </a>
@@ -785,53 +791,62 @@
                         <h4 class="card-title">Quick Links</h4>
                         </div>
                         <div class="card-body pb-1">
-                        <div class="owl-carousel link-slider">
-                        <div class="item">
-                        <a href="https://preskool.dreamstechnologies.com/ci/template/public/class-time-table" class="d-block bg-success-transparent ronded p-2 text-center mb-3 class-hover">
+                        
+                        <div class="item" id="quick-linksid">
+                            <div class="qlinks">
+                        <a href="class-time-table.html" class="d-block bg-success-transparent ronded p-2 text-center mb-3 class-hover">
                         <div class="avatar avatar-lg border p-1 border-success rounded-circle mb-2">
                         <span class="d-inline-flex align-items-center justify-content-center w-100 h-100 bg-success rounded-circle"><i class="ti ti-calendar"></i></span>
                         </div>
-                        <p class="text-dark">Calendar</p>
+                        <p class="text-dark">Pay Fees</p>
                         </a>
+                        </div>
+                        <div class="qlinks">
                         <a href="https://preskool.dreamstechnologies.com/ci/template/public/fees-group" class="d-block bg-secondary-transparent ronded p-2 text-center mb-3 class-hover">
                         <div class="avatar avatar-lg border p-1 border-secondary rounded-circle mb-2">
                         <span class="d-inline-flex align-items-center justify-content-center w-100 h-100 bg-secondary rounded-circle"><i class="ti ti-license"></i></span>
                         </div>
-                        <p class="text-dark">Fees</p>
+                        <p class="text-dark">Exam Portal</p>
                         </a>
                         </div>
-                        <div class="item">
+                        <div class="qlinks">
                         <a href="https://preskool.dreamstechnologies.com/ci/template/public/exam-results" class="d-block bg-primary-transparent ronded p-2 text-center mb-3 class-hover">
                         <div class="avatar avatar-lg border p-1 border-primary rounded-circle mb-2">
                         <span class="d-inline-flex align-items-center justify-content-center w-100 h-100 bg-primary rounded-circle"><i class="ti ti-hexagonal-prism"></i></span>
                         </div>
                         <p class="text-dark">Exam Result</p>
                         </a>
+                        </div>
+                        <div class="qlinks">
                         <a href="https://preskool.dreamstechnologies.com/ci/template/public/class-home-work" class="d-block bg-danger-transparent ronded p-2 text-center mb-3 class-hover">
                         <div class="avatar avatar-lg border p-1 border-danger rounded-circle mb-2">
                         <span class="d-inline-flex align-items-center justify-content-center w-100 h-100 bg-danger rounded-circle"><i class="ti ti-report-money"></i></span>
                         </div>
-                        <p class="text-dark">Home Works</p>
+                        <p class="text-dark">Assignments</p>
                         </a>
                         </div>
-                        <div class="item">
+                        
+                        <div class="qlinks">
                         <a href="https://preskool.dreamstechnologies.com/ci/template/public/student-attendance" class="d-block bg-warning-transparent ronded p-2 text-center mb-3 class-hover">
                         <div class="avatar avatar-lg border p-1 border-warning rounded-circle mb-2">
                         <span class="d-inline-flex align-items-center justify-content-center w-100 h-100 bg-warning rounded-circle"><i class="ti ti-calendar-share"></i></span>
                         </div>
-                        <p class="text-dark">Attendance</p>
+                        <p class="text-dark">Requests</p>
                         </a>
-                        <a href="https://preskool.dreamstechnologies.com/ci/template/public/attendance-report" class="d-block bg-skyblue-transparent ronded p-2 text-center mb-3 class-hover">
+                        </div>
+                        <div class="qlinks">
+                        <a href="placement.html" class="d-block bg-skyblue-transparent ronded p-2 text-center mb-3 class-hover">
                         <div class="avatar avatar-lg border p-1 border-skyblue rounded-circle mb-2">
                         <span class="d-inline-flex align-items-center justify-content-center w-100 h-100 bg-pending rounded-circle"><i class="ti ti-file-pencil"></i></span>
                         </div>
-                        <p class="text-dark">Reports</p>
+                        <p class="text-dark">Placements</p>
                         </a>
                         </div>
                         </div>
                         </div>
                         </div>
                         </div>
+                        
 
                     <div class="col-xxl-4 col-xl-6 d-flex">
                         <div class="card flex-fill">
@@ -842,67 +857,10 @@
                             </div>
                             <div class="card-body">
                                 <div class="notice-widget">
-                                    <div class="d-flex align-items-center justify-content-between mb-4">
-                                        <div class="d-flex align-items-center overflow-hidden me-2">
-                                            <span
-                                                class="bg-primary-transparent avatar avatar-md me-2 rounded-circle flex-shrink-0">
-                                                <i class="ti ti-books fs-16"></i>
-                                            </span>
-                                            <div class="overflow-hidden">
-                                                <h6 class="text-truncate mb-1">New Syllabus Instructions</h6>
-                                                <p><i class="ti ti-calendar me-2"></i>Added on : 11 Mar 2024</p>
-                                            </div>
-                                        </div>
-                                        <a
-                                            href="https://preskool.dreamstechnologies.com/ci/template/public/notice-board"><i
-                                                class="ti ti-chevron-right fs-16"></i></a>
-                                    </div>
-                                    <div class="d-flex align-items-center justify-content-between mb-4">
-                                        <div class="d-flex align-items-center overflow-hidden me-2">
-                                            <span
-                                                class="bg-success-transparent avatar avatar-md me-2 rounded-circle flex-shrink-0">
-                                                <i class="ti ti-note fs-16"></i>
-                                            </span>
-                                            <div class="overflow-hidden">
-                                                <h6 class="text-truncate mb-1">World Environment Day Program.....!!!
-                                                </h6>
-                                                <p><i class="ti ti-calendar me-2"></i>Added on : 21 Apr 2024</p>
-                                            </div>
-                                        </div>
-                                        <a
-                                            href="https://preskool.dreamstechnologies.com/ci/template/public/notice-board"><i
-                                                class="ti ti-chevron-right fs-16"></i></a>
-                                    </div>
-                                    <div class="d-flex align-items-center justify-content-between mb-4">
-                                        <div class="d-flex align-items-center overflow-hidden me-2">
-                                            <span
-                                                class="bg-danger-transparent avatar avatar-md me-2 rounded-circle flex-shrink-0">
-                                                <i class="ti ti-bell-check fs-16"></i>
-                                            </span>
-                                            <div class="overflow-hidden">
-                                                <h6 class="text-truncate mb-1">Exam Preparation Notification!</h6>
-                                                <p><i class="ti ti-calendar me-2"></i>Added on : 13 Mar 2024</p>
-                                            </div>
-                                        </div>
-                                        <a
-                                            href="https://preskool.dreamstechnologies.com/ci/template/public/notice-board"><i
-                                                class="ti ti-chevron-right fs-16"></i></a>
-                                    </div>
-                                    <div class="d-flex align-items-center justify-content-between mb-4">
-                                        <div class="d-flex align-items-center overflow-hidden me-2">
-                                            <span
-                                                class="bg-skyblue-transparent avatar avatar-md me-2 rounded-circle flex-shrink-0">
-                                                <i class="ti ti-notes fs-16"></i>
-                                            </span>
-                                            <div class="overflow-hidden">
-                                                <h6 class="text-truncate mb-1">Online Classes Preparation</h6>
-                                                <p><i class="ti ti-calendar me-2"></i>Added on : 24 May 2024</p>
-                                            </div>
-                                        </div>
-                                        <a
-                                            href="https://preskool.dreamstechnologies.com/ci/template/public/notice-board"><i
-                                                class="ti ti-chevron-right fs-16"></i></a>
-                                    </div>
+                                    
+                                    
+                                    
+                                    
                                     <div class="d-flex align-items-center justify-content-between mb-4">
                                         <div class="d-flex align-items-center overflow-hidden me-2">
                                             <span
@@ -918,179 +876,87 @@
                                             href="https://preskool.dreamstechnologies.com/ci/template/public/notice-board"><i
                                                 class="ti ti-chevron-right fs-16"></i></a>
                                     </div>
-                                    <div class="d-flex align-items-center justify-content-between mb-0">
-                                        <div class="d-flex align-items-center overflow-hidden me-2">
-                                            <span
-                                                class="bg-danger-transparent avatar avatar-md me-2 rounded-circle flex-shrink-0">
-                                                <i class="ti ti-bell-check fs-16"></i>
-                                            </span>
-                                            <div class="overflow-hidden">
-                                                <h6 class="text-truncate mb-1">English Exam Preparation</h6>
-                                                <p><i class="ti ti-calendar me-2"></i>Added on : 23 Mar 2024</p>
-                                            </div>
-                                        </div>
-                                        <a
-                                            href="https://preskool.dreamstechnologies.com/ci/template/public/notice-board"><i
-                                                class="ti ti-chevron-right fs-16"></i></a>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <!--last-->
-                    <div class="col-xxl-4 col-xl-6 d-flex">
-                        <div class="card flex-fill">
-                            <div class="card-header d-flex align-items-center justify-content-between">
-                                <h4 class="card-titile">Home Works</h4>
-                                <div class="dropdown">
-                                    <a href="javascript:void(0);" class="bg-white dropdown-toggle"
-                                        data-bs-toggle="dropdown"><i class="ti ti-book-2 me-2"></i>All Subject
-                                    </a>
-                                    <ul class="dropdown-menu mt-2 p-3">
-                                        <li>
-                                            <a href="javascript:void(0);" class="dropdown-item rounded-1">
-                                                Physics
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0);" class="dropdown-item rounded-1">
-                                                Chemistry
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0);" class="dropdown-item rounded-1">
-                                                Maths
-                                            </a>
-                                        </li>
-                                    </ul>
+                    <div class="col-xl-6">
+                        <div class="card">
+                            <div class="card-header justify-content-between">
+                                <div class="card-title">
+                                    Assignments
                                 </div>
                             </div>
-                            <div class="card-body py-1">
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item py-3 px-0 pb-0">
-                                        <div class="d-flex align-items-center justify-content-between flex-wrap">
-                                            <div class="d-flex align-items-center overflow-hidden mb-3">
-                                                <a href="javascript:void(0);"
-                                                    class="avatar avatar-xl flex-shrink-0 me-2">
-                                                    <img src="https://preskool.dreamstechnologies.com/ci/template/public/assets/img/home-work/home-work-01.jpg"
-                                                        alt="img">
-                                                </a>
-                                                <div class="overflow-hidden">
-                                                    <p class="d-flex align-items-center text-info mb-1"><i
-                                                            class="ti ti-tag me-2"></i>Physics</p>
-                                                    <h6 class="text-truncate mb-1"><a
-                                                            href="https://preskool.dreamstechnologies.com/ci/template/public/class-home-work">Write
-                                                            about Theory of Pendulum</a></h6>
-                                                    <div class="d-flex align-items-center flex-wrap">
-                                                        <div class="d-flex align-items-center border-end me-1 pe-1">
-                                                            <a href="https://preskool.dreamstechnologies.com/ci/template/public/teacher-details"
-                                                                class="avatar avatar-xs flex-shrink-0 me-2">
-                                                                <img src="https://preskool.dreamstechnologies.com/ci/template/public/assets/img/teachers/teacher-01.jpg"
-                                                                    class="rounded-circle" alt="teacher">
-                                                            </a>
-                                                            <p class="text-dark">Aaron</p>
-                                                        </div>
-                                                        <p>Due by : 16 Jun 2024</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                    </li>
-                                    <li class="list-group-item py-3 px-0 pb-0">
-                                        <div class="d-flex align-items-center justify-content-between flex-wrap">
-                                            <div class="d-flex align-items-center overflow-hidden mb-3">
-                                                <a href="javascript:void(0);"
-                                                    class="avatar avatar-xl flex-shrink-0 me-2">
-                                                    <img src="https://preskool.dreamstechnologies.com/ci/template/public/assets/img/home-work/home-work-02.jpg"
-                                                        alt="img">
-                                                </a>
-                                                <div class="overflow-hidden">
-                                                    <p class="d-flex align-items-center text-success mb-1"><i
-                                                            class="ti ti-tag me-2"></i>Chemistry</p>
-                                                    <h6 class="text-truncate mb-1"><a
-                                                            href="https://preskool.dreamstechnologies.com/ci/template/public/class-home-work">Chemistry
-                                                            - Change of Elements</a></h6>
-                                                    <div class="d-flex align-items-center flex-wrap">
-                                                        <div class="d-flex align-items-center border-end me-1 pe-1">
-                                                            <a href="https://preskool.dreamstechnologies.com/ci/template/public/teacher-details"
-                                                                class="avatar avatar-xs flex-shrink-0 me-2">
-                                                                <img src="https://preskool.dreamstechnologies.com/ci/template/public/assets/img/teachers/teacher-01.jpg"
-                                                                    class="rounded-circle" alt="teacher">
-                                                            </a>
-                                                            <p class="text-dark">Hellana</p>
-                                                        </div>
-                                                        <p>Due by : 16 Jun 2024</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                    </li>
-                                    <li class="list-group-item py-3 px-0 pb-0">
-                                        <div class="d-flex align-items-center justify-content-between flex-wrap">
-                                            <div class="d-flex align-items-center overflow-hidden mb-3">
-                                                <a href="javascript:void(0);"
-                                                    class="avatar avatar-xl flex-shrink-0 me-2">
-                                                    <img src="https://preskool.dreamstechnologies.com/ci/template/public/assets/img/home-work/home-work-03.jpg"
-                                                        alt="img">
-                                                </a>
-                                                <div class="overflow-hidden">
-                                                    <p class="d-flex align-items-center text-danger mb-1"><i
-                                                            class="ti ti-tag me-2"></i>Maths</p>
-                                                    <h6 class="text-truncate mb-1"><a
-                                                            href="https://preskool.dreamstechnologies.com/ci/template/public/class-home-work">Maths
-                                                            - Problems to Solve Page 21</a></h6>
-                                                    <div class="d-flex align-items-center flex-wrap">
-                                                        <div class="d-flex align-items-center border-end me-1 pe-1">
-                                                            <a href="https://preskool.dreamstechnologies.com/ci/template/public/teacher-details"
-                                                                class="avatar avatar-xs flex-shrink-0 me-2">
-                                                                <img src="https://preskool.dreamstechnologies.com/ci/template/public/assets/img/teachers/teacher-01.jpg"
-                                                                    class="rounded-circle" alt="teacher">
-                                                            </a>
-                                                            <p class="text-dark">Morgan</p>
-                                                        </div>
-                                                        <p>Due by : 21 Jun 2024</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                    </li>
-                                    <li class="list-group-item py-3 px-0 pb-0">
-                                        <div class="d-flex align-items-center justify-content-between flex-wrap">
-                                            <div class="d-flex align-items-center overflow-hidden mb-3">
-                                                <a href="javascript:void(0);"
-                                                    class="avatar avatar-xl flex-shrink-0 me-2">
-                                                    <img src="https://preskool.dreamstechnologies.com/ci/template/public/assets/img/home-work/home-work-04.jpg"
-                                                        alt="img">
-                                                </a>
-                                                <div class="overflow-hidden">
-                                                    <p class="d-flex align-items-center text-skyblue mb-1"><i
-                                                            class="ti ti-tag me-2"></i>Engish</p>
-                                                    <h6 class="text-truncate mb-1"><a
-                                                            href="https://preskool.dreamstechnologies.com/ci/template/public/class-home-work">English
-                                                            - Vocabulary Introduction</a></h6>
-                                                    <div class="d-flex align-items-center flex-wrap">
-                                                        <div class="d-flex align-items-center border-end me-1 pe-1">
-                                                            <a href="https://preskool.dreamstechnologies.com/ci/template/public/teacher-details"
-                                                                class="avatar avatar-xs flex-shrink-0 me-2">
-                                                                <img src="https://preskool.dreamstechnologies.com/ci/template/public/assets/img/teachers/teacher-01.jpg"
-                                                                    class="rounded-circle" alt="teacher">
-                                                            </a>
-                                                            <p class="text-dark">Daniel Josua</p>
-                                                        </div>
-                                                        <p>Due by : 21 Jun 2024</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                    </li>
-                                </ul>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table text-nowrap table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Subject</th>
+                                                <th scope="col">Last Date</th>
+                                                
+                                                <th scope="col">Submit</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">ICD-10 CM</th>
+                                                <td>27-010-2022</td>
+                                                
+                                                <td>
+                                                    <button
+                                                        class="btn btn-sm btn-success btn-wave waves-effect waves-light">
+                                                        <i
+                                                            class="feather-download align-middle me-2 d-inline-block"></i>Upload
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">HCPCS Coding</th>
+                                                <td>28-10-2022</td>
+                                               
+                                                <td>
+                                                    <button
+                                                        class="btn btn-sm btn-success btn-wave waves-effect waves-light">
+                                                        <i
+                                                            class="feather-download align-middle me-2 d-inline-block"></i>Upload
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">HIPAA Training</th>
+                                                <td>22-10-2022</td>
+                                                
+                                                <td>
+                                                    <button
+                                                        class="btn btn-sm btn-success btn-wave waves-effect waves-light">
+                                                        <i
+                                                            class="feather-download align-middle me-2 d-inline-block"></i>Upload
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Medical Billing</th>
+                                                <td>29-09-2022</td>
+                                                
+                                                <td>
+                                                    <button
+                                                        class="btn btn-sm btn-success btn-wave waves-effect waves-light">
+                                                        <i
+                                                            class="feather-download align-middle me-2 d-inline-block"></i>Upload
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
                         </div>
+                    </div>
+                    </div>
                     </div><br>
                         <!--Faculties-->
                         <div class="row">
@@ -1098,185 +964,133 @@
                     <div class="col-xl-12">
                         <div class="card flex-fill">
                             <div class="card-header d-flex align-items-center justify-content-between">
-                                <h4 class="card-title">Class Faculties</h4>
+                                <h4 class="card-title">Modules</h4>
                                 <div class="owl-nav slide-nav text-end nav-control"></div>
                             </div>
                             <div class="card-body">
                                 <div class="teachers-profile-slider owl-carousel">
                                     <div class="card bg-light-100 mb-0">
-                                        <div class="card-body">
+                                        <div class="card-body bg-danger-transparent">
                                             <div class="d-flex align-items-center mb-3">
-                                                <a href="https://preskool.dreamstechnologies.com/ci/template/public/teacher-details"
-                                                    class="avatar avatar-lg rounded me-2">
-                                                    <img src="https://preskool.dreamstechnologies.com/ci/template/public/assets/img/teachers/teacher-06.jpg"
-                                                        alt="Teacher">
+                                                
+                                                    
                                                 </a>
                                                 <div class="overflow-hidden">
                                                     <h6 class="mb-1 text-truncate"><a
-                                                            href="https://preskool.dreamstechnologies.com/ci/template/public/teacher-details">Aaron</a>
+                                                            href="https://preskool.dreamstechnologies.com/ci/template/public/teacher-details">Anatomy & Physiology</a>
                                                     </h6>
-                                                    <p>Chemistry</p>
+                                                    
                                                 </div>
                                             </div>
-                                            <div class="row gx-2">
+                                            <div class="row gx-2" >
                                                 <div class="col-6">
                                                     <a href="javascript:void(0);"
                                                         class="btn btn-outline-light bg-white d-flex align-items-center justify-content-center fw-semibold fs-12"><i
-                                                            class="ti ti-mail me-2"></i>Email</a>
+                                                            class=""></i>Completed</a>
                                                 </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card bg-light-100 mb-0">
+                                        <div class="card-body bg-danger-transparent">
+                                            <div class="d-flex align-items-center mb-3">
+                                                
+                                                    
+                                                </a>
+                                                <div class="overflow-hidden">
+                                                    <h6 class="mb-1 text-truncate"><a
+                                                            href="https://preskool.dreamstechnologies.com/ci/template/public/teacher-details">Medical Terminology. Pre-fix, Suffix, Abbreviations</a>
+                                                    </h6>
+                                                    
+                                                </div>
+                                            </div>
+                                            <div class="row gx-2" >
                                                 <div class="col-6">
                                                     <a href="javascript:void(0);"
                                                         class="btn btn-outline-light bg-white d-flex align-items-center justify-content-center fw-semibold fs-12"><i
-                                                            class="ti ti-message-chatbot me-2"></i>Chat</a>
+                                                            class=""></i>Completed</a>
                                                 </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card bg-light-100 mb-0">
+                                        <div class="card-body bg-success-transparent">
+                                            <div class="d-flex align-items-center mb-3">
+                                                
+                                                    
+                                                </a>
+                                                <div class="overflow-hidden">
+                                                    <h6 class="mb-1 text-truncate"><a
+                                                            href="https://preskool.dreamstechnologies.com/ci/template/public/teacher-details">All human systems</a>
+                                                    </h6>
+                                                    
+                                                </div>
+                                            </div>
+                                            <div class="row gx-2" >
+                                                <div class="col-6">
+                                                    <a href="javascript:void(0);"
+                                                        class="btn btn-outline-light bg-white d-flex align-items-center justify-content-center fw-semibold fs-12"><i
+                                                            class=""></i>Active</a>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    
+
+                                    
+                                    <div class="card bg-light-100 mb-0">
+                                        <div class="card-body bg-skyblue-transparent">
+                                            <div class="d-flex align-items-center mb-3">
+                                                
+                                                    
+                                                </a>
+                                                <div class="overflow-hidden">
+                                                    <h6 class="mb-1 text-truncate"><a
+                                                            href="https://preskool.dreamstechnologies.com/ci/template/public/teacher-details">General Coding guidelines</a>
+                                                    </h6>
+                                                    
+                                                </div>
+                                            </div>
+                                            <div class="row gx-2" >
+                                                <div class="col-6">
+                                                    <a href="javascript:void(0);"
+                                                        class="btn btn-outline-light bg-white d-flex align-items-center justify-content-center fw-semibold fs-12"><i
+                                                            class=""></i>Upcoming</a>
+                                                </div>
+                                                
                                             </div>
                                         </div>
                                     </div>
                                     <div class="card bg-light-100 mb-0">
-                                        <div class="card-body">
+                                        <div class="card-body bg-skyblue-transparent">
                                             <div class="d-flex align-items-center mb-3">
-                                                <a href="https://preskool.dreamstechnologies.com/ci/template/public/teacher-details"
-                                                    class="avatar avatar-lg rounded me-2">
-                                                    <img src="https://preskool.dreamstechnologies.com/ci/template/public/assets/img/teachers/teacher-03.jpg"
-                                                        alt="Teacher">
+                                                
+                                                    
                                                 </a>
-                                                <div>
+                                                <div class="overflow-hidden">
                                                     <h6 class="mb-1 text-truncate"><a
-                                                            href="https://preskool.dreamstechnologies.com/ci/template/public/teacher-details">Hellana</a>
+                                                            href="https://preskool.dreamstechnologies.com/ci/template/public/teacher-details">Chapter specific guidelines</a>
                                                     </h6>
-                                                    <p>English</p>
+                                                    
                                                 </div>
                                             </div>
-                                            <div class="row gx-2">
+                                            <div class="row gx-2" >
                                                 <div class="col-6">
                                                     <a href="javascript:void(0);"
                                                         class="btn btn-outline-light bg-white d-flex align-items-center justify-content-center fw-semibold fs-12"><i
-                                                            class="ti ti-mail me-2"></i>Email</a>
+                                                            class=""></i>Upcoming</a>
                                                 </div>
-                                                <div class="col-6">
-                                                    <a href="javascript:void(0);"
-                                                        class="btn btn-outline-light bg-white d-flex align-items-center justify-content-center fw-semibold fs-12"><i
-                                                            class="ti ti-message-chatbot me-2"></i>Chat</a>
-                                                </div>
+                                                
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="card bg-light-100 mb-0">
-                                        <div class="card-body">
-                                            <div class="d-flex align-items-center mb-3">
-                                                <a href="https://preskool.dreamstechnologies.com/ci/template/public/teacher-details"
-                                                    class="avatar avatar-lg rounded me-2">
-                                                    <img src="https://preskool.dreamstechnologies.com/ci/template/public/assets/img/teachers/teacher-05.jpg"
-                                                        alt="Teacher">
-                                                </a>
-                                                <div>
-                                                    <h6 class="mb-1 text-truncate"><a
-                                                            href="https://preskool.dreamstechnologies.com/ci/template/public/teacher-details">Morgan</a>
-                                                    </h6>
-                                                    <p>Physics</p>
-                                                </div>
-                                            </div>
-                                            <div class="row gx-2">
-                                                <div class="col-6">
-                                                    <a href="javascript:void(0);"
-                                                        class="btn btn-outline-light bg-white d-flex align-items-center justify-content-center fw-semibold fs-12"><i
-                                                            class="ti ti-mail me-2"></i>Email</a>
-                                                </div>
-                                                <div class="col-6">
-                                                    <a href="javascript:void(0);"
-                                                        class="btn btn-outline-light bg-white d-flex align-items-center justify-content-center fw-semibold fs-12"><i
-                                                            class="ti ti-message-chatbot me-2"></i>Chat</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card bg-light-100 mb-0">
-                                        <div class="card-body">
-                                            <div class="d-flex align-items-center mb-3">
-                                                <a href="https://preskool.dreamstechnologies.com/ci/template/public/teacher-details"
-                                                    class="avatar avatar-lg rounded me-2">
-                                                    <img src="https://preskool.dreamstechnologies.com/ci/template/public/assets/img/teachers/teacher-02.jpg"
-                                                        alt="Teacher">
-                                                </a>
-                                                <div>
-                                                    <h6 class="mb-1 text-truncate"><a
-                                                            href="https://preskool.dreamstechnologies.com/ci/template/public/teacher-details">Daniel
-                                                            Josua</a></h6>
-                                                    <p>Spanish</p>
-                                                </div>
-                                            </div>
-                                            <div class="row gx-2">
-                                                <div class="col-6">
-                                                    <a href="javascript:void(0);"
-                                                        class="btn btn-outline-light bg-white d-flex align-items-center justify-content-center fw-semibold fs-12"><i
-                                                            class="ti ti-mail me-2"></i>Email</a>
-                                                </div>
-                                                <div class="col-6">
-                                                    <a href="javascript:void(0);"
-                                                        class="btn btn-outline-light bg-white d-flex align-items-center justify-content-center fw-semibold fs-12"><i
-                                                            class="ti ti-message-chatbot me-2"></i>Chat</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card bg-light-100 mb-0">
-                                        <div class="card-body">
-                                            <div class="d-flex align-items-center mb-3">
-                                                <a href="https://preskool.dreamstechnologies.com/ci/template/public/teacher-details"
-                                                    class="avatar avatar-lg rounded me-2">
-                                                    <img src="https://preskool.dreamstechnologies.com/ci/template/public/assets/img/teachers/teacher-01.jpg"
-                                                        alt="Teacher">
-                                                </a>
-                                                <div>
-                                                    <h6 class="mb-1 text-truncate"><a
-                                                            href="https://preskool.dreamstechnologies.com/ci/template/public/teacher-details">Teresa</a>
-                                                    </h6>
-                                                    <p>Maths</p>
-                                                </div>
-                                            </div>
-                                            <div class="row gx-2">
-                                                <div class="col-6">
-                                                    <a href="javascript:void(0);"
-                                                        class="btn btn-outline-light bg-white d-flex align-items-center justify-content-center fw-semibold fs-12"><i
-                                                            class="ti ti-mail me-2"></i>Email</a>
-                                                </div>
-                                                <div class="col-6">
-                                                    <a href="javascript:void(0);"
-                                                        class="btn btn-outline-light bg-white d-flex align-items-center justify-content-center fw-semibold fs-12"><i
-                                                            class="ti ti-message-chatbot me-2"></i>Chat</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card bg-light-100 mb-0">
-                                        <div class="card-body">
-                                            <div class="d-flex align-items-center mb-3">
-                                                <a href="https://preskool.dreamstechnologies.com/ci/template/public/teacher-details"
-                                                    class="avatar avatar-lg rounded me-2">
-                                                    <img src="https://preskool.dreamstechnologies.com/ci/template/public/assets/img/teachers/teacher-09.jpg"
-                                                        alt="Teacher">
-                                                </a>
-                                                <div>
-                                                    <h6 class="mb-1 text-truncate"><a
-                                                            href="https://preskool.dreamstechnologies.com/ci/template/public/teacher-details">Jacquelin</a>
-                                                    </h6>
-                                                    <p>Biology</p>
-                                                </div>
-                                            </div>
-                                            <div class="row gx-2">
-                                                <div class="col-6">
-                                                    <a href="javascript:void(0);"
-                                                        class="btn btn-outline-light bg-white d-flex align-items-center justify-content-center fw-semibold fs-12"><i
-                                                            class="ti ti-mail me-2"></i>Email</a>
-                                                </div>
-                                                <div class="col-6">
-                                                    <a href="javascript:void(0);"
-                                                        class="btn btn-outline-light bg-white d-flex align-items-center justify-content-center fw-semibold fs-12"><i
-                                                            class="ti ti-message-chatbot me-2"></i>Chat</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>

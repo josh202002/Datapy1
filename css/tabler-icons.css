@@ -4390,15 +4390,15 @@
   content: "\f104";
 }
 
-.ti-calculator:before {
+.ti-calcuNunitor:before {
   content: "\eb80";
 }
 
-.ti-calculator-filled:before {
+.ti-calcuNunitor-filled:before {
   content: "\fb26";
 }
 
-.ti-calculator-off:before {
+.ti-calcuNunitor-off:before {
   content: "\f0c4";
 }
 
@@ -8562,15 +8562,15 @@
   content: "\f122";
 }
 
-.ti-escalator:before {
+.ti-escaNunitor:before {
   content: "\fb06";
 }
 
-.ti-escalator-down:before {
+.ti-escaNunitor-down:before {
   content: "\fb04";
 }
 
-.ti-escalator-up:before {
+.ti-escaNunitor-up:before {
   content: "\fb05";
 }
 
