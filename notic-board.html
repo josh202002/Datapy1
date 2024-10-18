@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from preskool.dreamstechnologies.com/ci/template/public/student-dashboard by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Oct 2024 19:26:17 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <meta name="description" content="Preskool - Bootstrap Admin Template">
+    <meta name="keywords" content="admin, estimates, bootstrap, business, html5, responsive, Projects">
+    <meta name="author" content="Dreams technologies - Bootstrap Admin Template">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Preskool Admin Template</title>
+    <link rel="shortcut icon" type="image/x-icon" href="css/images/favicon.png">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/feather.css">
+
+    <link rel="stylesheet" href="css/tabler-icons.css">
+
+    <link rel="stylesheet" href="css/daterangepicker.css">
+
+    <link rel="stylesheet" href="css/select2.min.css">
+
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/dataTables.bootstrap5.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="global-loader">
+        <div class="page-loader"></div>
+    </div>
+
+    <div class="main-wrapper">
+
+        <div class="header">
+
+            <div class="header-left active">
+
+                <a href="https://preskool.dreamstechnologies.com/ci/template/public/" class="logo logo-normal">
+                    <img src="https://preskool.dreamstechnologies.com/ci/template/public/assets/img/logo.svg"
+                        alt="Logo">
+                </a>
+                <a href="https://preskool.dreamstechnologies.com/ci/template/public/" class="logo-small">
+                    <img src="https://preskool.dreamstechnologies.com/ci/template/public/assets/img/logo-small.svg"
+                        alt="Logo">
+                </a>
+                <a href="https://preskool.dreamstechnologies.com/ci/template/public/" class="dark-logo">
+                    <img src="https://preskool.dreamstechnologies.com/ci/template/public/assets/img/logo-dark.svg"
+                        alt="Logo">
+                </a>
+                <a id="toggle_btn" href="javascript:void(0);">
+                    <i class="ti ti-menu-deep"></i>
+                </a>
+
+            </div>
+            <a id="mobile_btn" class="mobile_btn" href="#sidebar">
+                <span class="bar-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </a>
+            <div class="header-user">
+                <div class="nav user-menu">
+
+                    <div class="nav-item nav-search-inputs me-auto">
+                        <div class="top-nav-search">
+                            <a href="javascript:void(0);" class="responsive-search">
+                                <i class="fa fa-search"></i>
+                            </a>
+                            <form action="#" class="dropdown">
+                                <div class="searchinputs" id="dropdownMenuClickable">
+                                    <input type="text" placeholder="Search">
+                                    <div class="search-addon">
+                                        <button type="submit"><i class="ti ti-command"></i></button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-center">
+                        <div class="dropdown me-2">
+                            <a href="#" class="btn btn-outline-light fw-normal bg-white d-flex align-items-center p-2"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="ti ti-calendar-due me-1"></i>Academic Year : 2024 / 2025
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a href="javascript:void(0);" class="dropdown-item d-flex align-items-center">
+                                    Academic Year : 2023 / 2024
+                                </a>
+                                <a href="javascript:void(0);" class="dropdown-item d-flex align-items-center">
+                                    Academic Year : 2022 / 2023
+                                </a>
+                                <a href="javascript:void(0);" class="dropdown-item d-flex align-items-center">
+                                    Academic Year : 2021 / 2022
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="pe-1">
+                            <a href="#" class="btn btn-outline-light bg-white btn-icon me-1" id="btnFullscreen">
+                                <i class="ti ti-maximize"></i>
+                            </a>
+                        </div>
+                        <div class="dropdown ms-1">
+                            <a href="javascript:void(0);" class="dropdown-toggle d-flex align-items-center"
+                                data-bs-toggle="dropdown">
+                                <span class="avatar avatar-md rounded">
+                                    <img src="https://preskool.dreamstechnologies.com/ci/template/public/assets/img/profiles/avatar-27.jpg"
+                                        alt="Img" class="img-fluid">
+                                </span>
+                            </a>
+
+
+
+                            <div class="dropdown-menu">
+                                <div class="d-block">
+                                    <div class="d-flex align-items-center p-2">
+                                        <span class="avatar avatar-md me-2 online avatar-rounded">
+                                            <img src="https://preskool.dreamstechnologies.com/ci/template/public/assets/img/profiles/avatar-27.jpg"
+                                                alt="img">
+                                        </span>
+                                        <div>
+                                            <h6 class>Megha Manulal</h6>
+                                            <p class="text-primary mb-0">Student</p>
+                                        </div>
+                                    </div>
+                                    <hr class="m-0">
+                                    <a class="dropdown-item d-inline-flex align-items-center p-2" href="profile.html">
+                                        <i class="ti ti-user-circle me-2"></i>My Profile</a>
+                                    <hr class="m-0">
+                                    <a class="dropdown-item d-inline-flex align-items-center p-2"
+                                        href="lock-screen.html"><i class="ti ti-login me-2"></i>Logout</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dropdown mobile-user-menu">
+                <a href="javascript:void(0);" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                    aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                <div class="dropdown-menu dropdown-menu-end">
+                    <a class="dropdown-item" href="profile.html">My Profile</a>
+                    <a class="dropdown-item" href="profile-settings.html">Settings</a>
+                    <a class="dropdown-item" href="lock-screen.html">Logout</a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-inner slimscroll">
+                <div id="sidebar-menu" class="sidebar-menu">
+                    <ul>
+                        <li>
+                            <!--
+<a href="javascript:void(0);" class="d-flex align-items-center border bg-white rounded p-2 mb-4">
+<img src="https://preskool.dreamstechnologies.com/ci/template/public/assets/img/icons/global-img.svg" class="avatar avatar-md img-fluid rounded" alt="Profile">
+<span class="text-dark ms-2 fw-normal">Global International</span>
+</a>
+-->
+
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                        
+                            <ul>
+                                <li class><a href="student-dashboard.html"><i
+                                            class="ti ti-layout-dashboard"></i><span>Dashboard</span></a></li>
+                                <ul>
+                                </ul>
+                        </li>
+
+<li>
+<li>
+
+<li class="submenu">
+<a class href="javascript:void(0);"><i class="ti ti-school"></i><span>Course</span><span class="menu-arrow"></span></a>
+<ul>
+<li class><a href="class-syllabus.html"><i class="ti ti-notebook"></i><span>Course Materials</span></a></li>
+<li class><a href="class-time-table.html"><i class="ti ti-device-desktop-analytics"></i><span>Class Schedule </span></a></li>
+<li class><a href="classes.html"><i class="ti ti-books"></i><span>Moodle</span></a></li>
+<li class><a href="exam-schedule.html"><i class="ti ti-ballpen"></i><span>Assignment</span></a></li>
+</ul>
+</li>
+
+
+<li class="submenu">
+<a class href="javascript:void(0);"><i class="ti ti-file-report"></i><span>Exam Portal</span><span class="menu-arrow"></span></a>
+<ul>
+<li class><a href="exam-schedule.html"><i class="ti ti-writing"></i><span>Assessment</span></a></li>
+<li class><a href="grade-report.html"><i class="ti ti-bookmarks"></i><span>Result</span></a></li>
+</ul>
+</li>
+
+<li class="submenu">
+<a class href="javascript:void(0);"><i class="ti ti-calendar"></i><span>Attendence</span><span class="menu-arrow"></span></a>
+<ul>
+<li class><a href="#"><i class="ti ti-files"></i><span>Attendance Report</span></a></li>
+<li class><a href="#"><i class="ti ti-address-book"></i><span>Leave Apply</span></a></li>
+</ul>
+</li>
+
+<li class="submenu">
+<a class href="javascript:void(0);"><i class="ti ti-license"></i><span>Fees</span><span class="menu-arrow"></span></a>
+<ul>
+<li class><a href="#"><i class=" ti ti-cash"></i><span>Fee Payment</span></a></li>
+<li class><a href="student-fees.html"><i class="ti ti-report-money"></i><span>Fees Report</span></a></li>
+</ul>
+</li>
+
+<li class="submenu">
+<a class href="javascript:void(0);"><i class="ti ti-school"></i><span>Career</span><span class="menu-arrow"></span></a>
+<ul>
+<li class><a href="#"><i class="ti ti-file-cv"></i><span>Resume</span></a></li>
+<li class><a href="#"><i class="ti ti-certificate-2"></i><span>Placement</span></a></li>
+<li class><a href="#"><i class="ti ti-certificate"></i><span>Certificates</span></a></li>
+</ul>
+</li>
+<li class><a href="teacher-grid.html"><i class="ti ti-users"></i><span>Teachers</span></a></li>
+<li class><a href="notic-board.html"><i class="ti ti-notification"></i><span>Notice Board</span></a></li>
+<li class><a href="profile.html"><i class="ti ti-user"></i><span>Profile</span></a></li>
+<li class><a href="teacher-grid.html"><i class="ti ti-question-mark"></i><span>FAQ</span></a></li>
+<li class><a href="lock-screen.html"><i class="ti ti-login me-2"></i><span>Logout</span></a></li>
+
+</div>
+</div>
+</div>
+
+
+<div class="page-wrapper">
+<div class="content content-two">
+
+<div class="d-md-flex d-block align-items-center justify-content-between mb-3">
+<div class="my-auto mb-2">
+<h3 class="page-title mb-1">Notice Board</h3>
+<nav>
+<ol class="breadcrumb mb-0">
+<li class="breadcrumb-item">
+<a href="index.html">Dashboard</a>
+</li>
+<li class="breadcrumb-item">Announcement</li>
+<li class="breadcrumb-item active" aria-current="page">Notice
+Board</li>
+</ol>
+</nav>
+</div>
+<div class="d-flex my-xl-auto right-content align-items-center flex-wrap">
+<div class="pe-1 mb-2">
+<a href="#" class="btn btn-outline-light bg-white btn-icon me-1" data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Refresh" data-bs-original-title="Refresh">
+<i class="ti ti-refresh"></i>
+</a>
+</div>
+<div class="pe-1 mb-2">
+<button type="button" class="btn btn-outline-light bg-white btn-icon me-1" data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Print" data-bs-original-title="Print">
+<i class="ti ti-printer"></i>
+</button>
+</div>
+<div class="dropdown me-2 mb-2">
+<a href="javascript:void(0);" class="dropdown-toggle btn btn-light fw-medium d-inline-flex align-items-center" data-bs-toggle="dropdown">
+<i class="ti ti-file-export me-2"></i>Export
+</a>
+<ul class="dropdown-menu  dropdown-menu-end p-3">
+<li>
+<a href="javascript:void(0);" class="dropdown-item rounded-1"><i class="ti ti-file-type-pdf me-2"></i>Export as PDF</a>
+</li>
+<li>
+<a href="javascript:void(0);" class="dropdown-item rounded-1"><i class="ti ti-file-type-xls me-2"></i>Export as Excel </a>
+</li>
+</ul>
+</div>
+<div class="mb-2">
+<a href="#" data-bs-toggle="modal" data-bs-target="#add_message" class="btn btn-primary d-flex align-items-center"><i class="ti ti-square-rounded-plus me-2"></i>Add Message</a>
+</div>
+</div>
+</div>
+
+<div class="d-flex align-items-center justify-content-end flex-wrap mb-2">
+<div class="form-check me-2 mb-3">
+<input class="form-check-input" type="checkbox">
+<span class="checkmarks">Mark & Delete All</span>
+</div>
+<div class="d-flex align-items-center flex-wrap">
+<div class="input-icon-start mb-3 me-2 position-relative">
+<span class="icon-addon">
+<i class="ti ti-calendar"></i>
+</span>
+<input type="text" class="form-control date-range bookingrange" placeholder="Select" value="Academic Year : 2024 / 2025">
+</div>
+<div class="dropdown mb-3">
+<a href="javascript:void(0);" class="btn btn-outline-light bg-white dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside"><i class="ti ti-filter me-2"></i>Filter</a>
+<div class="dropdown-menu drop-width">
+<form action="notice-board.html">
+<div class="d-flex align-items-center border-bottom p-3">
+<h4>Filter</h4>
+</div>
+<div class="p-3 border-bottom pb-0">
+<div class="row">
+<div class="col-md-12">
+<div class="mb-3">
+<label class="form-label">Message to</label>
+<select class="select">
+<option>Select</option>
+<option>Staff</option>
+<option>Student</option>
+<option>Teacher</option>
+<option>Parent</option>
+</select>
+</div>
+</div>
+<div class="col-md-12">
+<div class="mb-3">
+<label class="form-label">Added Date</label>
+<select class="select">
+<option>Select</option>
+<option>15 May 2024</option>
+<option>16 May 2024</option>
+<option>17 May 2024</option>
+</select>
+</div>
+</div>
+</div>
+</div>
+<div class="p-3 d-flex align-items-center justify-content-end">
+<a href="#" class="btn btn-light me-3">Reset</a>
+<button type="submit" class="btn btn-primary">Apply</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+
+<div class="card board-hover mb-3">
+<div class="card-body d-md-flex align-items-center justify-content-between pb-1">
+<div class="d-flex align-items-center mb-3">
+<div class="form-check form-check-md me-2">
+<input class="form-check-input" type="checkbox">
+</div>
+<span class="bg-soft-primary text-primary avatar avatar-md me-2 br-5 flex-shrink-0">
+<i class="ti ti-notification fs-16"></i>
+</span>
+<div>
+<h6 class="mb-1 fw-semibold">
+<a href="#" data-bs-toggle="modal" data-bs-target="#view_details">Classes
+Preparation</a>
+</h6>
+<p><i class="ti ti-calendar me-1"></i>Added on : 24 May 2024</p>
+</div>
+</div>
+<div class="d-flex align-items-center board-action mb-3">
+<a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#edit_message" class="text-primary border rounded p-1 badge me-1 primary-btn-hover">
+<i class="ti ti-edit-circle fs-16"></i>
+</a>
+<a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#delete-modal" class="text-danger border rounded p-1 badge danger-btn-hover">
+<i class="ti ti-trash-x fs-16"></i>
+</a>
+</div>
+</div>
+</div>
+
+
+<div class="card board-hover mb-3">
+<div class="card-body d-md-flex align-items-center justify-content-between pb-1">
+<div class="d-flex align-items-center mb-3">
+<div class="form-check form-check-md me-2">
+<input class="form-check-input" type="checkbox">
+</div>
+<span class="bg-soft-primary text-primary avatar avatar-md me-2 br-5 flex-shrink-0">
+<i class="ti ti-notification fs-16"></i>
+</span>
+<div>
+<h6 class="mb-1 fw-semibold"><a href="#" data-bs-toggle="modal" data-bs-target="#view_details">Fees Reminder</a></h6>
+<p><i class="ti ti-calendar me-1"></i>Added on : 12 May 2024</p>
+</div>
+</div>
+<div class="d-flex align-items-center board-action mb-3">
+<a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#edit_message" class="text-primary border rounded p-1 badge me-1 primary-btn-hover">
+<i class="ti ti-edit-circle fs-16"></i>
+</a>
+<a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#delete-modal" class="text-danger border rounded p-1 badge danger-btn-hover">
+<i class="ti ti-trash-x fs-16"></i>
+</a>
+</div>
+</div>
+</div>
+
+
+<div class="card board-hover mb-3">
+<div class="card-body d-md-flex align-items-center justify-content-between pb-1">
+<div class="d-flex align-items-center mb-3">
+<div class="form-check form-check-md me-2">
+<input class="form-check-input" type="checkbox">
+</div>
+<span class="bg-soft-primary text-primary avatar avatar-md me-2 br-5 flex-shrink-0">
+<i class="ti ti-notification fs-16"></i>
+</span>
+<div>
+<h6 class="mb-1 fw-semibold"><a href="#" data-bs-toggle="modal" data-bs-target="#view_details">Parents Teacher Meeting</a></h6>
+<p><i class="ti ti-calendar me-1"></i>Added on : 10 May 2024</p>
+</div>
+</div>
+<div class="d-flex align-items-center board-action mb-3">
+<a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#edit_message" class="text-primary border rounded p-1 badge me-1 primary-btn-hover">
+<i class="ti ti-edit-circle fs-16"></i>
+</a>
+<a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#delete-modal" class="text-danger border rounded p-1 badge danger-btn-hover">
+<i class="ti ti-trash-x fs-16"></i>
+</a>
+</div>
+</div>
+</div>
+
+
+<div class="card board-hover mb-3">
+<div class="card-body d-md-flex align-items-center justify-content-between pb-1">
+<div class="d-flex align-items-center mb-3">
+<div class="form-check form-check-md me-2">
+<input class="form-check-input" type="checkbox">
+</div>
+<span class="bg-soft-primary text-primary avatar avatar-md me-2 br-5 flex-shrink-0">
+<i class="ti ti-notification fs-16"></i>
+</span>
+<div>
+<h6 class="mb-1 fw-semibold"><a href="#" data-bs-toggle="modal" data-bs-target="#view_details">New Academic Session For Admission
+(2024-25)</a></h6>
+<p><i class="ti ti-calendar me-1"></i>Added on : 28 Apr 2024</p>
+</div>
+</div>
+<div class="d-flex align-items-center board-action mb-3">
+<a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#edit_message" class="text-primary border rounded p-1 badge me-1 primary-btn-hover">
+<i class="ti ti-edit-circle fs-16"></i>
+</a>
+<a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#delete-modal" class="text-danger border rounded p-1 badge danger-btn-hover">
+<i class="ti ti-trash-x fs-16"></i>
+</a>
+</div>
+</div>
+</div>
+
+
+<div class="card board-hover mb-3">
+<div class="card-body d-md-flex align-items-center justify-content-between pb-1">
+<div class="d-flex align-items-center mb-3">
+<div class="form-check form-check-md me-2">
+<input class="form-check-input" type="checkbox">
+</div>
+<span class="bg-soft-primary text-primary avatar avatar-md me-2 br-5 flex-shrink-0">
+<i class="ti ti-notification fs-16"></i>
+</span>
+<div>
+<h6 class="mb-1 fw-semibold"><a href="#" data-bs-toggle="modal" data-bs-target="#view_details">Staff Meeting</a></h6>
+<p><i class="ti ti-calendar me-1"></i>Added on : 23 Apr 2024</p>
+</div>
+</div>
+<div class="d-flex align-items-center board-action mb-3">
+<a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#edit_message" class="text-primary border rounded p-1 badge me-1 primary-btn-hover">
+<i class="ti ti-edit-circle fs-16"></i>
+</a>
+<a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#delete-modal" class="text-danger border rounded p-1 badge danger-btn-hover">
+<i class="ti ti-trash-x fs-16"></i>
+</a>
+</div>
+</div>
+</div>
+
+
+<div class="card board-hover mb-3">
+<div class="card-body d-md-flex align-items-center justify-content-between pb-1">
+<div class="d-flex align-items-center mb-3">
+<div class="form-check form-check-md me-2">
+<input class="form-check-input" type="checkbox">
+</div>
+<span class="bg-soft-primary text-primary avatar avatar-md me-2 br-5 flex-shrink-0">
+<i class="ti ti-notification fs-16"></i>
+</span>
+<div>
+<h6 class="mb-1 fw-semibold"><a href="#" data-bs-toggle="modal" data-bs-target="#view_details">World Environment Day
+Program.....!!!</a></h6>
+<p><i class="ti ti-calendar me-1"></i>Added on : 21 Apr 2024</p>
+</div>
+</div>
+<div class="d-flex align-items-center board-action mb-3">
+<a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#edit_message" class="text-primary border rounded p-1 badge me-1 primary-btn-hover">
+<i class="ti ti-edit-circle fs-16"></i>
+</a>
+<a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#delete-modal" class="text-danger border rounded p-1 badge danger-btn-hover">
+<i class="ti ti-trash-x fs-16"></i>
+</a>
+</div>
+</div>
+</div>
+
+
+<div class="card board-hover mb-3">
+<div class="card-body d-md-flex align-items-center justify-content-between pb-1">
+<div class="d-flex align-items-center mb-3">
+<div class="form-check form-check-md me-2">
+<input class="form-check-input" type="checkbox">
+</div>
+<span class="bg-soft-primary text-primary avatar avatar-md me-2 br-5 flex-shrink-0">
+<i class="ti ti-notification fs-16"></i>
+</span>
+<div>
+<h6 class="mb-1 fw-semibold"><a href="#" data-bs-toggle="modal" data-bs-target="#view_details">New Syllabus Instructions</a></h6>
+<p><i class="ti ti-calendar me-1"></i>Added on : 11 Mar 2024</p>
+</div>
+</div>
+<div class="d-flex align-items-center board-action mb-3">
+<a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#edit_message" class="text-primary border rounded p-1 badge me-1 primary-btn-hover">
+<i class="ti ti-edit-circle fs-16"></i>
+</a>
+<a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#delete-modal" class="text-danger border rounded p-1 badge danger-btn-hover">
+<i class="ti ti-trash-x fs-16"></i>
+</a>
+</div>
+</div>
+</div>
+
+
+<div class="card board-hover mb-3">
+<div class="card-body d-md-flex align-items-center justify-content-between pb-1">
+<div class="d-flex align-items-center mb-3">
+<div class="form-check form-check-md me-2">
+<input class="form-check-input" type="checkbox">
+</div>
+<span class="bg-soft-primary text-primary avatar avatar-md me-2 br-5 flex-shrink-0">
+<i class="ti ti-notification fs-16"></i>
+</span>
+<div>
+<h6 class="mb-1 fw-semibold"><a href="#" data-bs-toggle="modal" data-bs-target="#view_details">Exam Preparation
+Notification!</a></h6>
+<p><i class="ti ti-calendar me-1"></i>Added on : 18 Mar 2024</p>
+</div>
+</div>
+<div class="d-flex align-items-center board-action mb-3">
+<a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#edit_message" class="text-primary border rounded p-1 badge me-1 primary-btn-hover">
+<i class="ti ti-edit-circle fs-16"></i>
+</a>
+<a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#delete-modal" class="text-danger border rounded p-1 badge danger-btn-hover">
+<i class="ti ti-trash-x fs-16"></i>
+</a>
+</div>
+</div>
+</div>
+
+
+<div class="card board-hover mb-3">
+<div class="card-body d-md-flex align-items-center justify-content-between pb-1">
+<div class="d-flex align-items-center mb-3">
+<div class="form-check form-check-md me-2">
+<input class="form-check-input" type="checkbox">
+</div>
+<span class="bg-soft-primary text-primary avatar avatar-md me-2 br-5 flex-shrink-0">
+<i class="ti ti-notification fs-16"></i>
+</span>
+<div>
+<h6 class="mb-1 fw-semibold"><a href="#" data-bs-toggle="modal" data-bs-target="#view_details">Gandhi Jayanti Programmed</a></h6>
+<p><i class="ti ti-calendar me-1"></i>Added on : 16 Feb 2024</p>
+</div>
+</div>
+<div class="d-flex align-items-center board-action mb-3">
+<a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#edit_message" class="text-primary border rounded p-1 badge me-1 primary-btn-hover">
+<i class="ti ti-edit-circle fs-16"></i>
+</a>
+<a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#delete-modal" class="text-danger border rounded p-1 badge danger-btn-hover">
+<i class="ti ti-trash-x fs-16"></i>
+</a>
+</div>
+</div>
+</div>
+
+
+<div class="card board-hover mb-3">
+<div class="card-body d-md-flex align-items-center justify-content-between pb-1">
+<div class="d-flex align-items-center mb-3">
+<div class="form-check form-check-md me-2">
+<input class="form-check-input" type="checkbox">
+</div>
+<span class="bg-soft-primary text-primary avatar avatar-md me-2 br-5 flex-shrink-0">
+<i class="ti ti-notification fs-16"></i>
+</span>
+<div>
+<h6 class="mb-1 fw-semibold"><a href="#" data-bs-toggle="modal" data-bs-target="#view_details">Republic Day Celebration</a></h6>
+<p><i class="ti ti-calendar me-1"></i>Added on : 24 Jan 2024</p>
+</div>
+</div>
+<div class="d-flex align-items-center board-action mb-3">
+<a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#edit_message" class="text-primary border rounded p-1 badge me-1 primary-btn-hover">
+<i class="ti ti-edit-circle fs-16"></i>
+</a>
+<a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#delete-modal" class="text-danger border rounded p-1 badge danger-btn-hover">
+<i class="ti ti-trash-x fs-16"></i>
+</a>
+</div>
+</div>
+</div>
+
+<div class="text-center">
+<a href="#" class="btn btn-primary"><i class="ti ti-loader-3 me-2"></i>Load More</a>
+</div>
+</div>
+</div>
+
+
+<div class="modal fade" id="add_message">
+<div class="modal-dialog modal-dialog-centered">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">New Message</h4>
+<button type="button" class="btn-close custom-btn-close" data-bs-dismiss="modal" aria-label="Close">
+<i class="ti ti-x"></i>
+</button>
+</div>
+<form action="notice-board.html">
+<div class="modal-body">
+<div class="row">
+<div class="col-md-12">
+<div class="mb-3">
+<label class="form-label">Title</label>
+<input type="text" class="form-control">
+</div>
+<div class="mb-3">
+<label class="form-label">Notice Date</label>
+<div class="date-pic">
+<input type="text" class="form-control datetimepicker">
+<span class="cal-icon"><i class="ti ti-calendar"></i></span>
+</div>
+</div>
+<div class="mb-3">
+<label class="form-label">Publish On</label>
+<div class="date-pic">
+<input type="text" class="form-control datetimepicker">
+<span class="cal-icon"><i class="ti ti-calendar"></i></span>
+</div>
+</div>
+<div class="mb-3">
+<div class="bg-light p-3 pb-2 rounded">
+<div class="mb-3">
+<label class="form-label">Attachment</label>
+<p>Upload size of 4MB, Accepted Format PDF</p>
+</div>
+<div class="d-flex align-items-center flex-wrap">
+<div class="btn btn-primary drag-upload-btn mb-2 me-2">
+<i class="ti ti-file-upload me-1"></i>Upload
+<input type="file" class="form-control image_sign" multiple>
+</div>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<label class="form-label">Message</label>
+<textarea class="form-control" rows="4"></textarea>
+</div>
+<div class="mb-0">
+<label class="form-label">Message To</label>
+<div class="row">
+<div class="col-md-6">
+<label class="checkboxs mb-1">
+<input type="checkbox">
+<span class="checkmarks"></span>
+Student
+</label>
+<label class="checkboxs mb-1">
+<input type="checkbox">
+<span class="checkmarks"></span>
+Parent
+</label>
+<label class="checkboxs mb-1">
+<input type="checkbox">
+<span class="checkmarks"></span>
+Admin
+</label>
+<label class="checkboxs mb-1">
+<input type="checkbox">
+<span class="checkmarks"></span>
+Teacher
+</label>
+</div>
+<div class="col-md-6">
+<label class="checkboxs mb-1">
+<input type="checkbox">
+<span class="checkmarks"></span>
+Accountant
+</label>
+<label class="checkboxs mb-1">
+<input type="checkbox">
+<span class="checkmarks"></span>
+Librarian
+</label>
+<label class="checkboxs mb-1">
+<input type="checkbox">
+<span class="checkmarks"></span>
+Receptionist
+</label>
+<label class="checkboxs mb-1">
+<input type="checkbox">
+<span class="checkmarks"></span>
+Super Admin
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<a href="#" class="btn btn-light me-2" data-bs-dismiss="modal">Cancel</a>
+<button type="submit" class="btn btn-primary">Add New Mesaage</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+
+
+<div class="modal fade" id="edit_message">
+<div class="modal-dialog modal-dialog-centered">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Edit Message</h4>
+<button type="button" class="btn-close custom-btn-close" data-bs-dismiss="modal" aria-label="Close">
+<i class="ti ti-x"></i>
+</button>
+</div>
+<form action="notice-board.html">
+<div class="modal-body">
+<div class="row">
+<div class="col-md-12">
+<div class="mb-3">
+<label class="form-label">Title</label>
+<input type="text" class="form-control" placeholder="Enter Title" value="Fees Reminder">
+</div>
+<div class="mb-3">
+<label class="form-label">Notice Date</label>
+<div class="date-pic">
+<input type="text" class="form-control datetimepicker" placeholder="15 May 2024">
+<span class="cal-icon"><i class="ti ti-calendar"></i></span>
+</div>
+</div>
+<div class="mb-3">
+<label class="form-label">Publish On</label>
+<div class="date-pic">
+<input type="text" class="form-control datetimepicker" placeholder="15 May 2024">
+<span class="cal-icon"><i class="ti ti-calendar"></i></span>
+</div>
+</div>
+<div class="mb-3">
+<div class="bg-light p-3 pb-2 rounded">
+<div class="mb-3">
+<label class="form-label">Attachment</label>
+<p>Upload size of 4MB, Accepted Format PDF</p>
+</div>
+<div class="d-flex align-items-center flex-wrap">
+<div class="btn btn-primary drag-upload-btn mb-2 me-2">
+<i class="ti ti-file-upload me-1"></i>Upload
+<input type="file" class="form-control image_sign" multiple>
+</div>
+<p class="mb-2">Fees_Structure.pdf</p>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<label class="form-label">Message</label>
+<textarea class="form-control" rows="4" placeholder="Add Comment">Please clear the outstanding dues for the school fees on the urgent basis.</textarea>
+</div>
+<div class="mb-0">
+<label class="form-label">Message To</label>
+<div class="row">
+<div class="col-md-6">
+<div class="form-check form-check-md mb-1">
+<input class="form-check-input" type="checkbox">
+<span>Student</span>
+</div>
+<div class="form-check form-check-md mb-1">
+<input class="form-check-input" type="checkbox">
+<span>Parent</span>
+</div>
+<div class="form-check form-check-md mb-1">
+<input class="form-check-input" type="checkbox">
+<span>Admin</span>
+</div>
+<div class="form-check form-check-md">
+<input class="form-check-input" type="checkbox">
+<span>Teacher</span>
+</div>
+</div>
+<div class="col-md-6">
+<div class="form-check form-check-md mb-1">
+<input class="form-check-input" type="checkbox">
+<span>Accountant</span>
+</div>
+<div class="form-check form-check-md mb-1">
+<input class="form-check-input" type="checkbox">
+<span>Librarian</span>
+</div>
+<div class="form-check form-check-md mb-1">
+<input class="form-check-input" type="checkbox">
+<span>Receptionist</span>
+</div>
+<div class="form-check form-check-md">
+<input class="form-check-input" type="checkbox">
+<span>Super Admin</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<a href="#" class="btn btn-light me-2" data-bs-dismiss="modal">Cancel</a>
+<button type="submit" class="btn btn-primary">Save Changes</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+
+
+<div class="modal fade" id="view_details">
+<div class="modal-dialog modal-dialog-centered">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Fees Reminder</h4>
+<button type="button" class="btn-close custom-btn-close" data-bs-dismiss="modal" aria-label="Close">
+<i class="ti ti-x"></i>
+</button>
+</div>
+<div class="modal-body pb-0">
+<div class="mb-3">
+<p class="mb-1">Dear parents,</p>
+<p>Please clear the outstanding dues for the school fees on the urgent
+basis.</p>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="mb-3">
+<label class="form-label">Notice Date</label>
+<p class="d-flex align-items-center"><i class="ti ti-calendar me-1"></i>15 May 2024
+</p>
+</div>
+</div>
+<div class="col-md-6">
+<div class="mb-3">
+<label class="form-label">Publish On</label>
+<p class="d-flex align-items-center"><i class="ti ti-calendar me-1"></i>21 May 2024
+</p>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="bg-light p-3 pb-2 rounded">
+<div class="mb-0">
+<label class="form-label">Attachment</label>
+<p class="text-primary">Fees_Structure.pdf</p>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<label class="form-label d-block">Message To</label>
+<span class="badge badge-soft-primary me-2">Student</span>
+<span class="badge badge-soft-primary">Parent</span>
+</div>
+<div class="border-top pt-3">
+<div class="d-flex align-items-center flex-wrap">
+<div class="d-flex align-items-center me-4 mb-3">
+<span class="avatar avatar-sm bg-light me-1"><i class="ti ti-calendar text-default fs-14"></i></span>Added on: 28 Apr 2024
+</div>
+<div class="d-flex align-items-center mb-3">
+<span class="avatar avatar-sm bg-light me-1"><i class="ti ti-user-edit text-default fs-14"></i></span>Added By
+: Daniel
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+<div class="modal fade" id="delete-modal">
+<div class="modal-dialog modal-dialog-centered">
+<div class="modal-content">
+<form action="notice-board.html">
+<div class="modal-body text-center">
+<span class="delete-icon">
+<i class="ti ti-trash-x"></i>
+</span>
+<h4>Confirm Deletion</h4>
+<p>You want to delete all the marked items, this cant be undone once you
+delete.</p>
+<div class="d-flex justify-content-center">
+<a href="javascript:void(0);" class="btn btn-light me-3" data-bs-dismiss="modal">Cancel</a>
+<button type="submit" class="btn btn-danger">Yes, Delete</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+
+</div>
+
+
+
+    <script src="https://preskool.dreamstechnologies.com/ci/template/public/assets/js/jquery-3.7.1.min.js"
+        type="9bfa851d73469f317c4b0562-text/javascript"></script>
+
+    <script src="https://preskool.dreamstechnologies.com/ci/template/public/assets/js/bootstrap.bundle.min.js"
+        type="9bfa851d73469f317c4b0562-text/javascript"></script>
+
+    <script src="https://preskool.dreamstechnologies.com/ci/template/public/assets/js/moment.js"
+        type="9bfa851d73469f317c4b0562-text/javascript"></script>
+    <script
+        src="https://preskool.dreamstechnologies.com/ci/template/public/assets/plugins/daterangepicker/daterangepicker.js"
+        type="9bfa851d73469f317c4b0562-text/javascript"></script>
+    <script src="https://preskool.dreamstechnologies.com/ci/template/public/assets/js/bootstrap-datetimepicker.min.js"
+        type="9bfa851d73469f317c4b0562-text/javascript"></script>
+    <script src="https://preskool.dreamstechnologies.com/ci/template/public/assets/plugins/moment/moment.js"
+        type="9bfa851d73469f317c4b0562-text/javascript"></script>
+
+    <script src="https://preskool.dreamstechnologies.com/ci/template/public/assets/js/feather.min.js"
+        type="9bfa851d73469f317c4b0562-text/javascript"></script>
+
+    <script src="https://preskool.dreamstechnologies.com/ci/template/public/assets/js/jquery.slimscroll.min.js"
+        type="9bfa851d73469f317c4b0562-text/javascript"></script>
+
+    <script src="https://preskool.dreamstechnologies.com/ci/template/public/assets/plugins/apexchart/apexcharts.min.js"
+        type="9bfa851d73469f317c4b0562-text/javascript"></script>
+    <script src="https://preskool.dreamstechnologies.com/ci/template/public/assets/plugins/apexchart/chart-data.js"
+        type="9bfa851d73469f317c4b0562-text/javascript"></script>
+
+    <script
+        src="https://preskool.dreamstechnologies.com/ci/template/public/assets/plugins/owlcarousel/owl.carousel.min.js"
+        type="9bfa851d73469f317c4b0562-text/javascript"></script>
+
+    <script src="https://preskool.dreamstechnologies.com/ci/template/public/assets/plugins/select2/js/select2.min.js"
+        type="9bfa851d73469f317c4b0562-text/javascript"></script>
+
+    <script src="https://preskool.dreamstechnologies.com/ci/template/public/assets/js/jquery.dataTables.min.js"
+        type="9bfa851d73469f317c4b0562-text/javascript"></script>
+    <script src="https://preskool.dreamstechnologies.com/ci/template/public/assets/js/dataTables.bootstrap5.min.js"
+        type="9bfa851d73469f317c4b0562-text/javascript"></script>
+
+    <script src="https://preskool.dreamstechnologies.com/ci/template/public/assets/js/theme-script.js"
+        type="9bfa851d73469f317c4b0562-text/javascript"></script>
+    <script src="https://preskool.dreamstechnologies.com/ci/template/public/assets/js/script.js"
+        type="9bfa851d73469f317c4b0562-text/javascript"></script>
+    <script
+        src="https://preskool.dreamstechnologies.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+        data-cf-settings="9bfa851d73469f317c4b0562-|49" defer></script>
+</body>
+
+<!-- Mirrored from preskool.dreamstechnologies.com/ci/template/public/student-dashboard by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Oct 2024 19:26:17 GMT -->
+
+</html>
