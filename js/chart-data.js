@@ -607,7 +607,7 @@ if($('#sales_charts').length > 0) {
               show: false,
             }
         },
-        colors: ['#3D5EE1', '#6FCCD8'],
+        colors: ['#FF5E00', '#6FCCD8'],
         series: [3610, 44],
         labels: ['Present', 'Absent'],
         legend: {show: false},
@@ -643,7 +643,7 @@ if($('#sales_charts').length > 0) {
               show: false,
             }
         },
-        colors: ['#3D5EE1', '#6FCCD8'],
+        colors: ['#FF5E00', '#6FCCD8'],
         series: [346, 54],
         labels: ['Present', 'Absent'],
         legend: {show: false},
@@ -680,7 +680,7 @@ if($('#sales_charts').length > 0) {
               show: false,
             }
         },
-        colors: ['#3D5EE1', '#6FCCD8'],
+        colors: ['#FF5E00', '#6FCCD8'],
         series: [620, 80],
         labels: ['Present', 'Absent'],
         legend: {show: false},
@@ -720,7 +720,7 @@ if($('#sales_charts').length > 0) {
               enabled: true
             }
         },
-        colors: ['#3D5EE1', '#EAB300', '#E82646'],
+        colors: ['#FF5E00', '#EAB300', '#E82646'],
         series: [45, 11, 2],
         labels: ['Good', 'Average', 'Below Average'],
         legend: {show: false},
@@ -840,7 +840,7 @@ if($('#fees-chart').length > 0 ){
               endingShape: 'rounded'  
           },
       },
-      colors: ['#3D5EE1', '#E9EDF4'],
+      colors: ['#FF5E00', '#E9EDF4'],
       dataLabels: {
           enabled: false
       },
@@ -920,7 +920,7 @@ if($('#fees-chart').length > 0 ){
           },
         }
       },
-      colors: ['#E9EDF4', '#3D5EE1', '#E9EDF4', '#E9EDF4', '#E9EDF4'], // Set specific colors for each bar
+      colors: ['#E9EDF4', '#FF5E00', '#E9EDF4', '#E9EDF4', '#E9EDF4'], // Set specific colors for each bar
       tooltip: {
         y: {
           formatter: function (val) {
@@ -1023,7 +1023,7 @@ if($('#fees-chart').length > 0 ){
           size: 7
         }
       },
-      colors: ['#3D5EE1', '#6FCCD8'], // Color for the lines
+      colors: ['#FF5E00', '#6FCCD8'], // Color for the lines
       fill: {
         type: 'gradient',
         gradient: {
@@ -1080,7 +1080,7 @@ if ($('#plan_chart').length > 0) {
 
       ],
       legend: {show: false},
-      colors:['#3D5EE1','#E82646'],
+      colors:['#FF5E00','#E82646'],
       responsive: [{
           breakpoint: 480,
           options: {
@@ -1162,7 +1162,7 @@ if ($('#plan_chart').length > 0) {
           size: 7
         }
       },
-      colors: ['#3D5EE1', '#6FCCD8'], // Color for the lines
+      colors: ['#FF5E00', '#6FCCD8'], // Color for the lines
       legend: {
         position: 'top',
         horizontalAlign: 'left'
@@ -1236,7 +1236,7 @@ if ($('#plan_chart').length > 0) {
             enabled: true
           }
       },
-      colors: ['#3D5EE1'],
+      colors: ['#FF5E00'],
       dataLabels: {
           enabled: false
       },
