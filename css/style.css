@@ -19519,7 +19519,11 @@ svg.collapse-open, svg.collapse-close {
   width: 120px;
   text-align: center;
 }
-
+#profileperf{
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 .nav-control {
   display: flex;
   align-items: center;
